@@ -1,11 +1,11 @@
-# Wine Recommendation System based on reviews from sommeliers
+# Wine Recommender based on reviews from sommeliers
 
 ## 1. Problem Description
 In an era of unprecedented choice, consumers are often overwhelmed, especially when selecting wine—a product category with over 1,500 options on average in American supermarkets. The key to navigating this vast array is personalization. A staggering 91% of consumers are drawn to brands that offer personalized recommendations (Accenture). Our wine recommendation system cuts through the complexity, offering a user-friendly digital service that adapts to individual tastes and budgets. As e-commerce wine sales show promising growth, our system is not just a convenience but a necessity, aligning with the consumer’s desire for a curated and efficient shopping experience. This innovative tool meets the modern demand for tailored experiences in the digital marketplace, positioning businesses at the forefront of the industry’s evolution and driving customer satisfaction and loyalty.
 
 ## 2. Solution Demo
 
-<video controls src="Solution Demo.mp4" title="Solution Demo"></video>
+https://github.com/reojackson31/wine-recommender/assets/148725712/ab51fb36-086d-4145-9699-7c3a3b152562
 
 ## 3. Analytics Approach
 
@@ -49,7 +49,7 @@ contributes to a more intuitive, data-driven approach to the wine retail experie
 6. streamlit_wine_recommender.py - Python script for the frontend web application developed with Streamlit. This interface accepts user preferences regarding wines, and runs the models to generate personalized wine recommendations to users.
 
 
-*Contributors:*
+**Contributors:**
 - [Oyundari Batbayar](https://github.com/obatbayar1)
 - [Jaya Chaturvedi](https://github.com/Jaya2404)
 - [Vinay Govias](https://github.com/vin1652)
