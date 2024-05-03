@@ -1,13 +1,5 @@
 # Wine Recommendation System based on reviews from sommeliers
 
-**Contributors:**
-- [Oyundari Batbayar](https://github.com/obatbayar1)
-- [Jaya Chaturvedi](https://github.com/Jaya2404)
-- [Vinay Govias](https://github.com/vin1652)
-- [Reo Paul Jackson](https://github.com/reojackson31)
-- [Moiz Shaikh](https://github.com/MoizZahidShaikh)
-- [Syed Ammad Sohail](https://github.com/ammadsohail99)
-
 ## 1. Problem Description
 In an era of unprecedented choice, consumers are often overwhelmed, especially when selecting wine—a product category with over 1,500 options on average in American supermarkets. The key to navigating this vast array is personalization. A staggering 91% of consumers are drawn to brands that offer personalized recommendations (Accenture). Our wine recommendation system cuts through the complexity, offering a user-friendly digital service that adapts to individual tastes and budgets. As e-commerce wine sales show promising growth, our system is not just a convenience but a necessity, aligning with the consumer’s desire for a curated and efficient shopping experience. This innovative tool meets the modern demand for tailored experiences in the digital marketplace, positioning businesses at the forefront of the industry’s evolution and driving customer satisfaction and loyalty.
 
@@ -44,14 +36,25 @@ contributes to a more intuitive, data-driven approach to the wine retail experie
 
 ## 5. Description of Code Files Submitted in zip folder:
 
-5.1. text_eda.ipynb - Jupyter Notebook with exploratory data analysis done on text fields in the dataset including wine descriptions, variety, region of origin etc. EDA steps include creating word clouds, TF-IDF, n-gram analysis, MDS plot, word frequency bar plots etc.
+1. text_eda.ipynb - Jupyter Notebook with exploratory data analysis done on text fields in the dataset including wine descriptions, variety, region of origin etc. EDA steps include creating word clouds, TF-IDF, n-gram analysis, MDS plot, word frequency bar plots etc.
 
-5.2. classification_model_experiments.ipynb - Jupyter notebook with experiments done using different classification models to predict the variety of wine based on the description text. Models tested include MultinomialNB, SGDClassifier, and LogisticRegression.
+2. classification_model_experiments.ipynb - Jupyter notebook with experiments done using different classification models to predict the variety of wine based on the description text. Models tested include MultinomialNB, SGDClassifier, and LogisticRegression.
 
-5.3. classification_model_training.py - Python script for model training on the best classification model selected from experimentation (LogisticRegression). The code also includes creation of a pipeline, and saving the trained model and pipeline in a pickle file.
+3. classification_model_training.py - Python script for model training on the best classification model selected from experimentation (LogisticRegression). The code also includes creation of a pipeline, and saving the trained model and pipeline in a pickle file.
 
-5.4. doc_similarity_model_experiments.ipynb - Jupyter notebook with experiments done using different document similarity models to find the best match for wines in the dataset based on an input text from the user. We experimented with five models - nearest neighbors using manhattan distance, euclidean distance, cosine similarity with TF-IDF vectorization and cosine similarity with word2vec.
+4. doc_similarity_model_experiments.ipynb - Jupyter notebook with experiments done using different document similarity models to find the best match for wines in the dataset based on an input text from the user. We experimented with five models - nearest neighbors using manhattan distance, euclidean distance, cosine similarity with TF-IDF vectorization and cosine similarity with word2vec.
 
-5.5. doc_similarity_model_training.py - Python script for preprocessing steps and vectorizing the dataset. The code also includes creation of a pipeline, and saving the vectorized data and pipeline in a pickle file.
+5. doc_similarity_model_training.py - Python script for preprocessing steps and vectorizing the dataset. The code also includes creation of a pipeline, and saving the vectorized data and pipeline in a pickle file.
 
-5.6. streamlit_wine_recommender.py - Python script for the frontend web application developed with Streamlit. This interface accepts user preferences regarding wines, and runs the models to generate personalized wine recommendations to users.
+6. streamlit_wine_recommender.py - Python script for the frontend web application developed with Streamlit. This interface accepts user preferences regarding wines, and runs the models to generate personalized wine recommendations to users.
+
+
+*Contributors:*
+- [Oyundari Batbayar](https://github.com/obatbayar1)
+- [Jaya Chaturvedi](https://github.com/Jaya2404)
+- [Vinay Govias](https://github.com/vin1652)
+- [Reo Paul Jackson](https://github.com/reojackson31)
+- [Moiz Shaikh](https://github.com/MoizZahidShaikh)
+- [Syed Ammad Sohail](https://github.com/ammadsohail99)
+
+
