@@ -34,7 +34,7 @@ The deployment of our wine recommendation system is poised to make a significant
 contributes to a more intuitive, data-driven approach to the wine retail experience.
 
 
-## 5. Description of Code Files Submitted in zip folder:
+## 5. Details of Code Files:
 
 1. text_eda.ipynb - Jupyter Notebook with exploratory data analysis done on text fields in the dataset including wine descriptions, variety, region of origin etc. EDA steps include creating word clouds, TF-IDF, n-gram analysis, MDS plot, word frequency bar plots etc.
 
